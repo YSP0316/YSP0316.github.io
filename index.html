@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>姚少鹏</title>
+</head>
+<body>
+    <script>
+        function changeImage()
+        {
+            element=document.getElementById('myimage')
+            if (element.src.match("yspBO_F"))
+            {
+                element.src="yspBO_B.Jpeg";
+            }
+            else
+            {
+                element.src="yspBO_F.Jpeg";
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <div align="center">
+        <!-- <img loading="lazy" id="myimage" onclick="changeImage()" ondblclick="javascript:location.href='html1.html'" src="yspBO_B.Jpeg"> -->
+        <img id="myimage" onclick="changeImage()" ondblclick="javascript:location.href='html1.html'" style="display: inline-block; width: 100%; max-width: 100%; height: auto;" src="yspBO_B.Jpeg" />
+        <br><br>
+        <!-- <div align="center">
+            <a href="www.baidu.com"><h5>百度</h5></a>
+            <a href="rocyao.gitee.io"><h5>-我- </h5></a>
+        </div> -->
+    </div>
+</body>
+</html>
